@@ -11,6 +11,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Имя посетителя - " + name + " " + surname + ", количество билетов - " + amountTickets;
+        return name + " " + surname + ", осталось билетов - " + amountTickets;
     }
 }
